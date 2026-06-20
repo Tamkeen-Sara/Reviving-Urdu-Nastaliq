@@ -1,0 +1,23 @@
+numpy==1.26.4
+httpx>=0.28.1
+scikit-image==0.24.0
+transformers==4.45.0
+sentencepiece==0.2.0
+jiwer==3.0.3
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+editdistance==0.8.1
+albumentations==1.4.3
+nltk==3.9.1
+groq==0.9.0
+huggingface_hub
+pyctcdecode
+torch>=2.0.0
+opencv-python
+pandas
+matplotlib
+scikit-learn
+tqdm
+
+# Optional: required only for the beam search decoding ablation in Section 4
+# pip install https://github.com/kpu/kenlm/archive/master.zip

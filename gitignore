@@ -1,0 +1,31 @@
+# Byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets and large artifacts (fetched at runtime from Kaggle, not versioned)
+*.csv
+*.png
+*.jpg
+data/
+checkpoints/
+*.pt
+*.pth
+*.bin
+
+# OS and editor noise
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets, in case any local env file is ever added
+.env
+*.key
